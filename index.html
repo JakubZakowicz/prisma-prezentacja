@@ -22,7 +22,14 @@
       }
 
       li {
-        margin-top: 10px;
+        margin-top: 30px;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
       }
     </style>
   </head>
@@ -78,19 +85,37 @@
             <h3>Jak Działa prisma?</h3>
             <p>
               Każdy projekt korzystający z Prismy zaczyna się od pliku schematu
-              Prisma. Schemat Prisma umożliwia programistom definiowanie modeli
-              aplikacji w intuicyjnym języku modelowania danych.
+              Prisma (prisma.schema). Schemat Prisma umożliwia programistom
+              definiowanie modeli aplikacji w intuicyjnym języku modelowania
+              danych.
             </p>
           </section>
           <section>
             <p>W takim schemacie konfigurujemy najczęściej trzy rzeczy:</p>
-            <ul>
-              <li>Źródło danych</li>
-              <li>Generator</li>
-              <li>Model danych</li>
-            </ul>
+            <div class="flex">
+              <ul>
+                <li>Źródło danych</li>
+                <li>Generator</li>
+                <li>Model danych</li>
+              </ul>
+              <img src="/images/prisma_schema.png" alt="" />
+            </div>
           </section>
         </section>
+        <section>
+          <section>
+            <h3>Prisma Client</h3>
+            <div class="prisma-client">
+              <img src="/images/prisma_client1.png" alt="prisma client 1" />
+              <img src="/images/prisma_client2.png" alt="prisma client 2" />
+            </div>
+          </section>
+          <section>
+            <h3>Prisma Client - Działanie</h3>
+            <img src="/images/prisma_diagram.webp" alt="prisma diagram" />
+          </section>
+        </section>
+        <section><h3>Dziękuję za uwagę!</h3></section>
       </div>
     </div>
 
